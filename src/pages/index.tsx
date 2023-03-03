@@ -94,15 +94,9 @@ export default function Home() {
 									</h1>
 									<p className='db3-network-is-a-dec'>
 										Db3 Network is a decentralized database
-										network. All nodes are operated by
-										miners. Developers can directly connect
+										network. Developers can directly connect
 										to the network to read and write data
-										without a centralized server. DB3
-										Network provides a very friendly
-										Firestore compatible TypeScript data
-										read and write interface, developers can
-										easily access, from centralized to
-										decentralized smooth switch
+										without a centralized server.
 									</p>
 									<div className='header-btn'>
 										<a className='overlap-group2'>
@@ -689,9 +683,22 @@ export default function Home() {
 				onRequestClose={() => setOpenVideo(false)}
 				contentLabel='See how DB3 works'
 			>
+				<div className='modal-title'>See how DB3 works</div>
+				<div className='sub-title'>
+					Find out what needs to be done to build a DAPP with DB3.Just
+					like use firebase before
+				</div>
+				<img
+					className='close-play'
+					src='/static/img/close.png'
+					onClick={() => setOpenVideo(false)}
+				/>
 				<ReactPlayer
 					className='play-video'
 					playing={playing}
+					width={900}
+					light={true}
+					height={500}
 					style={{
 						display: openVideo ? "block" : "none",
 					}}
