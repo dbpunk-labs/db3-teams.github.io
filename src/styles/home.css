@@ -1995,12 +1995,10 @@
 }
 
 .home-container .rectangle-1 {
-	height: 478px;
 	left: 489px;
-	object-fit: cover;
 	position: absolute;
 	top: 0;
-	width: 756px;
+	width: 646px;
 }
 
 .home-container .fully-compatible-wit {
@@ -2013,12 +2011,11 @@
 }
 
 .home-container .image-10 {
-	height: 236px;
+	/* height: 70px; */
 	left: 407px;
-	object-fit: cover;
 	position: absolute;
-	top: 34px;
-	width: 823px;
+	top: 58px;
+	width: 567px;
 }
 
 .home-container .all-db3js-sd-ks-are-c {
@@ -2249,21 +2246,17 @@
 }
 
 .home-container .rectangle-8 {
-	height: 581px;
-	left: 0;
-	object-fit: cover;
+	left: 70px;
 	position: absolute;
 	top: 0;
-	width: 844px;
+	width: 646px;
 }
 
 .home-container .image-11 {
-	height: 114px;
 	left: 31px;
-	object-fit: cover;
 	position: absolute;
-	top: 94px;
-	width: 654px;
+	top: 154px;
+	width: 502px;
 }
 
 .home-container .db3js-1 {
@@ -2389,21 +2382,17 @@
 }
 
 .home-container .image-7 {
-	height: 478px;
 	left: 53px;
-	object-fit: cover;
 	position: absolute;
 	top: 0;
-	width: 756px;
+	width: 649px;
 }
 
 .home-container .image-12 {
-	height: 188px;
 	left: 0;
-	object-fit: cover;
 	position: absolute;
-	top: 215px;
-	width: 761px;
+	top: 202px;
+	width: 502px;
 }
 
 .home-container .multi-chain-supportable {
@@ -3814,6 +3803,7 @@
 	width: 254px;
 	margin-top: 11px;
 	border-radius: 10px;
+	box-shadow: 0px 15px 30px #abadbf;
 }
 
 .home-container .card-more {
@@ -3822,8 +3812,12 @@
 	display: flex;
 	flex-direction: column;
 	overflow: hidden;
-	width: 254px;
+	/* width: 254px; */
 	margin-top: 10px;
+}
+.card-more img {
+	width: 294px;
+	margin-top: -5px;
 }
 
 .home-container .overlap-group6-1 {
@@ -3836,6 +3830,7 @@
 	align-items: center;
 	justify-content: center;
 	height: 162px;
+	box-shadow: 0px 15px 30px #abadbf;
 }
 
 .home-container .any-data-heavy-d-app {
@@ -3918,7 +3913,6 @@
 	line-height: 19px;
 	color: #000000;
 	text-align: center;
-	margin-top: 30px;
 }
 
 .home-container .buttonsecondary-4 {

@@ -345,7 +345,6 @@ export default function Home() {
 										</div>
 										<div className='overlap-group1-4'>
 											<div className='overlap-group-7'>
-												<div className='rectangle-30'></div>
 												<img
 													className='rectangle-1'
 													src='/static/img/rectangle-1.png'
@@ -442,7 +441,6 @@ export default function Home() {
 											</div>
 										</div>
 										<div className='overlap-group2-3'>
-											<div className='rectangle-32'></div>
 											<img
 												className='rectangle-8'
 												src='/static/img/rectangle-8.png'
@@ -484,7 +482,6 @@ export default function Home() {
 										<a className='db3-btn'>Try Browser</a>
 									</div>
 									<div className='overlap-group3-2'>
-										<div className='rectangle-33'></div>
 										<img
 											className='image-7'
 											src='/static/img/image-7.png'
@@ -574,23 +571,13 @@ export default function Home() {
 							<div className='cardnft'>
 								<img
 									className='nft-1'
-									src='/static/img/nft-1@2x.png'
+									src='/static/img/nft-1.png'
 									alt='NFT 1'
 								/>
 								<div className='dynamic-nft'>Dynamic NFT</div>
 							</div>
 							<div className='card-more'>
-								<div className='overlap-group6-1'>
-									<div className='any-data-heavy-d-app'>
-										<span className='span0-3'>
-											Any
-											<br />
-										</span>
-										<span className='span1-2'>
-											Data-heavy dAPP
-										</span>
-									</div>
-								</div>
+								<img src='/static/img/more.png' />
 								<div className='place'>More</div>
 							</div>
 						</div>
