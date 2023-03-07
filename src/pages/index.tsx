@@ -94,15 +94,9 @@ export default function Home() {
 									</h1>
 									<p className='db3-network-is-a-dec'>
 										Db3 Network is a decentralized database
-										network. All nodes are operated by
-										miners. Developers can directly connect
+										network. Developers can directly connect
 										to the network to read and write data
-										without a centralized server. DB3
-										Network provides a very friendly
-										Firestore compatible TypeScript data
-										read and write interface, developers can
-										easily access, from centralized to
-										decentralized smooth switch
+										without a centralized server.
 									</p>
 									<div className='header-btn'>
 										<a className='overlap-group2'>
@@ -351,7 +345,6 @@ export default function Home() {
 										</div>
 										<div className='overlap-group1-4'>
 											<div className='overlap-group-7'>
-												<div className='rectangle-30'></div>
 												<img
 													className='rectangle-1'
 													src='/static/img/rectangle-1.png'
@@ -448,7 +441,6 @@ export default function Home() {
 											</div>
 										</div>
 										<div className='overlap-group2-3'>
-											<div className='rectangle-32'></div>
 											<img
 												className='rectangle-8'
 												src='/static/img/rectangle-8.png'
@@ -490,7 +482,6 @@ export default function Home() {
 										<a className='db3-btn'>Try Browser</a>
 									</div>
 									<div className='overlap-group3-2'>
-										<div className='rectangle-33'></div>
 										<img
 											className='image-7'
 											src='/static/img/image-7.png'
@@ -580,23 +571,13 @@ export default function Home() {
 							<div className='cardnft'>
 								<img
 									className='nft-1'
-									src='/static/img/nft-1@2x.png'
+									src='/static/img/nft-1.png'
 									alt='NFT 1'
 								/>
 								<div className='dynamic-nft'>Dynamic NFT</div>
 							</div>
 							<div className='card-more'>
-								<div className='overlap-group6-1'>
-									<div className='any-data-heavy-d-app'>
-										<span className='span0-3'>
-											Any
-											<br />
-										</span>
-										<span className='span1-2'>
-											Data-heavy dAPP
-										</span>
-									</div>
-								</div>
+								<img src='/static/img/more.png' />
 								<div className='place'>More</div>
 							</div>
 						</div>
@@ -689,9 +670,22 @@ export default function Home() {
 				onRequestClose={() => setOpenVideo(false)}
 				contentLabel='See how DB3 works'
 			>
+				<div className='modal-title'>See how DB3 works</div>
+				<div className='sub-title'>
+					Find out what needs to be done to build a DAPP with DB3.Just
+					like use firebase before
+				</div>
+				<img
+					className='close-play'
+					src='/static/img/close.png'
+					onClick={() => setOpenVideo(false)}
+				/>
 				<ReactPlayer
 					className='play-video'
 					playing={playing}
+					width={900}
+					light={true}
+					height={500}
 					style={{
 						display: openVideo ? "block" : "none",
 					}}
