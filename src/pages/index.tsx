@@ -67,7 +67,7 @@ export default function Home() {
 						</div>
 						<div className='header-right'>
 							<div className='group-341'></div>
-							<div className='github'>Github</div>
+							<div className='github'>GitHub</div>
 							<div className='github-star'>
 								<img
 									className='icon-star'
@@ -87,16 +87,15 @@ export default function Home() {
 											DB3 Network
 										</div>
 										<p className='desc'>
-											is an open source
+											An open source
 											decentralizedalternative to
 											Firestore
 										</p>
 									</h1>
 									<p className='db3-network-is-a-dec'>
-										Db3 Network is a decentralized database
-										network. Developers can directly connect
-										to the network to read and write data
-										without a centralized server.
+										Db3 Network is a decentralized database network. 
+										Developers can directly connect to the network 
+										to read and write data without a centralized server.
 									</p>
 									<div className='header-btn'>
 										<a className='overlap-group2'>
@@ -174,7 +173,7 @@ export default function Home() {
 									Decentralized Database
 								</div>
 								<div className='save-data-on-chain inter-normal-black-14px'>
-									Save data on chain
+									Save dynamic data on chain
 								</div>
 							</div>
 							<div className='group-61'>
@@ -229,11 +228,9 @@ export default function Home() {
 							How to change dAPP structure with DB3
 						</p>
 						<p className='make-apps-more-decen inter-normal-black-16px'>
-							Make apps more decentralised without sacrificing the
-							development experience, Blockchain and Database as
-							back-end service for you dApps. DB3 allow you to
-							quickly build a fully decentralized application
-							instead of web2.5
+							Decentralized Database as back-end service for you dApps.  
+							DB3 allow you to quickly build a fully decentralized application
+							instead of web2.5 by replacing your Firebase/Mysql.
 						</p>
 
 						<a className='db3-btn'>View Document</a>
@@ -255,9 +252,8 @@ export default function Home() {
 							<div className='overlap-title'>
 								<div className='after'>After</div>
 								<p className='instead-of-a-central'>
-									Instead of a centralized database,Use a
-									decentralized database, DB3, to make your
-									application more censor-resistant
+									Instead of a centralized database,use DB3 
+									to make your application more censor-resistant
 								</p>
 							</div>
 							<img src='/static/img/after.png' width={636} />
@@ -270,9 +266,7 @@ export default function Home() {
 							</div>
 							<p className='db3-is-a-decentraliz inter-normal-black-16px'>
 								DB3 is a decentralized database network that
-								anyone can use without permission, and it is
-								very easy to control their own data, real-time
-								data updates and query access
+								anyone can use without permission, with lots of novel properties
 							</p>
 						</div>
 						<div className='view-container'>
@@ -282,7 +276,7 @@ export default function Home() {
 									Mutable Document
 								</div>
 								<p className='the-data-stored-on-t inter-normal-black-14px'>
-									The data stored on the db3 network are
+									The data stored on the DB3 network are
 									dynamic structured data that can be updated
 									in real time
 								</p>
@@ -294,8 +288,7 @@ export default function Home() {
 								</div>
 								<p className='the-data-stored-on-t inter-normal-black-14px'>
 									The data stored in DB3 Network is completely
-									controlled by private key signature,No third
-									party has control over the data.
+									controlled by private key signature.
 								</p>
 							</div>
 							<div className='view'>
@@ -305,9 +298,8 @@ export default function Home() {
 								</div>
 								<p className='the-data-stored-on-t inter-normal-black-14px'>
 									Deploy complex data processing logic to the
-									chain in a functional manner, which can make
-									the data processing process open and
-									transparent
+									chain in a functional manner which can make
+									the data processing transparent
 								</p>
 							</div>
 							<div className='view'>
@@ -316,7 +308,7 @@ export default function Home() {
 									Blazed Fast Read&amp;Wirte
 								</div>
 								<p className='the-data-stored-on-t inter-normal-black-14px'>
-									db3 can provide high-performance data read
+									DB3 can provide high-performance data read
 									and write services without losing the
 									consensus security of the blockchain
 								</p>
@@ -360,42 +352,28 @@ export default function Home() {
 											<div className='db3js-1'>DB3js</div>
 
 											<p className='all-db3js-sd-ks-are-c inter-semi-bold-black-20px'>
-												All DB3js SDKs are carefully
-												designed to make developers
-												lives easier
+												DB3js make developers lives easier
 											</p>
 											<div className='db3js-desc'>
 												<p>
-													npm one-click installation
+													NPM one-click installation
 												</p>
 												<p>
 													Fully compatible with
-													firestore&#39;s interface,
-													seamlessly migrate
+													Firestore&#39;s interface
 												</p>
 												<p>
 													Interacts with db3 network
-													directly , and does not
-													require an intermediate
+													directly, no intermediate
 													server
 												</p>
 												<p>
 													Flexible definition of data
-													query index index
+													query index
 												</p>
 												<p>
 													CRUD the data in the front
 													end directly
-												</p>
-												<p>
-													Customize data schemas and
-													create data storage
-													protocols quickly
-												</p>
-												<p>
-													Fully compatible with
-													Firebase interactive
-													interface
 												</p>
 											</div>
 											<a className='db3-btn'>
@@ -419,9 +397,7 @@ export default function Home() {
 											</p>
 											<div className='dms-group inter-normal-black-14px'>
 												<p>
-													Manage the forms you create
-													on the admin platform
-													visually
+													Manage the database you created
 												</p>
 												<p>
 													Check the access status of
@@ -467,16 +443,15 @@ export default function Home() {
 											Browser on Chain
 										</div>
 										<p className='track-the-read-and-w inter-semi-bold-black-20px'>
-											Track the read and write behavior of
-											each data in time
+											Track transaction details 
 										</p>
 										<div className='browser-group inter-normal-black-14px'>
 											<p>
 												Display the data of the whole
 												network
 											</p>
-											<p>Dashbopard</p>
-											<p>Record for block and tx</p>
+											<p>Dashboard</p>
+											<p>Record for block and transactions</p>
 											<p>Validator information</p>
 										</div>
 										<a className='db3-btn'>Try Browser</a>
@@ -640,7 +615,7 @@ export default function Home() {
 									<span className='span1-1 footer-link'>
 										Documents
 										<br />
-										github
+										GitHub
 									</span>
 								</div>
 								<div className='community-forum-twitter-discord inter-bold-black-18px'>

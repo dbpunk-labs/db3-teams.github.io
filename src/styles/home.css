@@ -974,7 +974,7 @@
 	margin-top: 7px;
 	text-align: center;
 	white-space: nowrap;
-	width: 126px;
+	width: 227px;
 }
 
 .home-container .group-61 {
@@ -2305,7 +2305,7 @@
 }
 
 .home-container .browser-on-chain-1 {
-	color: var(--black-2);
+	color: var(--radical-red);
 	font-family: var(--font-family-inter);
 	font-size: var(--font-size-m);
 	font-weight: 500;
