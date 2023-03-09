@@ -241,9 +241,7 @@ export default function Home() {
 								<div className='before'>Before</div>
 								<p className='need-to-rely-on-a-ce'>
 									Need to rely on a centralized database and
-									maintain your own servers prevents the core
-									data portion of the application from being
-									decentralized
+									maintain your own servers
 								</p>
 							</div>
 							<img src='/static/img/before.png' width={636} />
@@ -252,8 +250,7 @@ export default function Home() {
 							<div className='overlap-title'>
 								<div className='after'>After</div>
 								<p className='instead-of-a-central'>
-									Instead of a centralized database,use DB3 
-									to make your application more censor-resistant
+									Use DB3 to make your application decentralized and remove centralized server
 								</p>
 							</div>
 							<img src='/static/img/after.png' width={636} />
