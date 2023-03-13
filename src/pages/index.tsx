@@ -87,9 +87,9 @@ export default function Home() {
 											DB3 Network
 										</div>
 										<p className='desc'>
-											is an open source
+											an open source
 											decentralized alternative to
-											Firestore
+											firestore
 										</p>
 									</h1>
 									<p className='db3-network-is-a-dec'>
