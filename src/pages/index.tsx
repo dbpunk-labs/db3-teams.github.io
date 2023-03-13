@@ -93,10 +93,7 @@ export default function Home() {
 										</p>
 									</h1>
 									<p className='db3-network-is-a-dec'>
-										Db3 Network is a decentralized database
-										network. Developers can directly connect
-										to the network to read and write data
-										without a centralized server.
+										
 									</p>
 									<div className='header-btn'>
 										<a className='overlap-group2'>
