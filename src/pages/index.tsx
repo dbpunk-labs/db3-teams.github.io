@@ -88,7 +88,7 @@ export default function Home() {
 										</div>
 										<p className='desc'>
 											is an open source
-											decentralizedalternative to
+											decentralized alternative to
 											Firestore
 										</p>
 									</h1>
