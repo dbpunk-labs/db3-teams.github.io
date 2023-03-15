@@ -41,6 +41,8 @@ export default function Home() {
 		setOpenVideo(true);
 	}
 
+
+
 	return (
 		<>
 			<Head>
@@ -62,12 +64,12 @@ export default function Home() {
 								src='/static/img/logo@2x.png'
 								alt='logo'
 							/>
-							<div className='build'>Build</div>
-							<div className='community'>Community</div>
+							{/* <div className='build'>Build</div> */}
+							{/* <div className='community'>Community</div> */}
 						</div>
 						<div className='header-right'>
 							<div className='group-341'></div>
-							<div className='github'>GitHub</div>
+							<a className='github' href="https://github.com/dbpunk-labs/db3" target="_blank">GitHub</a>
 							<div className='github-star'>
 								<img
 									className='icon-star'
@@ -87,9 +89,7 @@ export default function Home() {
 											DB3 Network
 										</div>
 										<p className='desc'>
-											An open source
-											decentralizedalternative to
-											Firestore
+											An open source decentralized database 
 										</p>
 									</h1>
 									<p className='db3-network-is-a-dec'>
@@ -98,13 +98,13 @@ export default function Home() {
 										to read and write data without a centralized server.
 									</p>
 									<div className='header-btn'>
-										<a className='overlap-group2'>
+										<a className='overlap-group2' href="https://github.com/dbpunk-labs/db3" target="_blank">
 											Start Build
 										</a>
-										<a className='db3-btn'>Claim Gitpoap</a>
+										{/* <a className='db3-btn'>Claim Gitpoap</a> */}
 									</div>
 								</div>
-								<div className='db3-process' onClick={paly}>
+								<div className='db3-process' >
 									<img
 										className='process-img'
 										src='/static/img/process.png'
@@ -114,13 +114,13 @@ export default function Home() {
 										src='/static/img/process-m.png'
 									/>
 
-									<div className='play'>
+									{/* <div className='play' onClick={paly}>
 										<img
 											className='polygon-1'
 											src='/static/img/polygon-1@2x.png'
 											alt='Polygon 1'
 										/>
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>
@@ -130,8 +130,7 @@ export default function Home() {
 						<div className='vs-firebase'>
 							<div className='group-349'>
 								<p className='boost-your-decentral'>
-									Boost your decentralization process as
-									usaual
+									Boost your decentralization process as usaual
 								</p>
 								<p className='the-way-you-use-db3'>
 									The way you use DB3 is just same as Firebase
@@ -233,7 +232,7 @@ export default function Home() {
 							instead of web2.5 by replacing your Firebase/Mysql.
 						</p>
 
-						<a className='db3-btn'>View Document</a>
+						{/* <a className='db3-btn'>View Document</a> */}
 					</div>
 					<div className='group-40'>
 						<div className='vs-before'>
@@ -373,9 +372,10 @@ export default function Home() {
 													end directly
 												</p>
 											</div>
-											<a className='db3-btn'>
+
+											{/* <a className='db3-btn' >
 												Start Building with DB3js
-											</a>
+											</a> */}
 										</div>
 									</div>
 									<div className='group-22'>
@@ -409,9 +409,9 @@ export default function Home() {
 													management
 												</p>
 											</div>
-											<div className='db3-btn'>
+											{/* <div className='db3-btn'>
 												Try Database
-											</div>
+											</div> */}
 										</div>
 										<div className='overlap-group2-3'>
 											<img
@@ -451,7 +451,7 @@ export default function Home() {
 											<p>Record for block and transactions</p>
 											<p>Validator information</p>
 										</div>
-										<a className='db3-btn'>Try Browser</a>
+										{/* <a className='db3-btn'>Try Browser</a> */}
 									</div>
 									<div className='overlap-group3-2'>
 										<img
@@ -553,9 +553,9 @@ export default function Home() {
 								<div className='place'>More</div>
 							</div>
 						</div>
-						<div className='db3-btn'>
+						{/* <div className='db3-btn'>
 							Check more&nbsp;&nbsp;Best practice in Community
-						</div>
+						</div> */}
 					</div>
 					<div className='footer-group'>
 						<div className='footer'>
@@ -566,30 +566,37 @@ export default function Home() {
 									alt='Union'
 								/>
 								<div className='group-17'>
+									<a href="https://twitter.com/Db3Network" target="_blank" >
 									<img
 										className='icon-twitter'
 										src='/static/img/icon _twitter_.png'
 										alt='icon &#34;github&#34;'
 									/>
-									<img
-										className='icon-github'
-										src='/static/img/icon _github_.png'
-										alt='icon &#34;github&#34;'
-									/>
-									<img
+									</a>
+									<a  href="https://github.com/dbpunk-labs/db3" target="_blank" >
+										<img
+											className='icon-github'
+											src='/static/img/icon _github_.png'
+											alt='icon &#34;github&#34;'
+										/>
+									</a>
+									
+									{/* <img
 										className='icon-youtube'
 										src='/static/img/icon _youtube_.png'
 										alt='icon-youtube'
-									/>
+									/> */}
+									<a href="https://discord.com/invite/sgY2bbFCzr" target="_blank">
 									<img
 										className='icon-discord'
 										src='/static/img/icon _discord_.png'
 										alt='icon &#34;discord&#34;'
 									/>
+									</a>
 								</div>
 							</div>
 							<div className='footer-right'>
-								<div className='products-decentraliz'>
+								{/* <div className='products-decentraliz'>
 									<span className='inter-bold-black-18px'>
 										Products
 										<br />
@@ -603,16 +610,19 @@ export default function Home() {
 										<br />
 										Explorer
 									</span>
-								</div>
+								</div> */}
 								<div className='developers-documents-github'>
-									<span className='inter-bold-black-18px '>
+									<span className='inter-bold-black-18px ' >
 										Developers
 										<br />
 									</span>
-									<span className='span1-1 footer-link'>
-										Documents
-										<br />
+									<span className='span1-1 footer-link' >
+										<a   href="https://github.com/dbpunk-labs/db3" target="_blank">
 										GitHub
+										</a>
+										{/* Documents
+										<br /> */}
+										
 									</span>
 								</div>
 								<div className='community-forum-twitter-discord inter-bold-black-18px'>
@@ -621,11 +631,14 @@ export default function Home() {
 										<br />
 									</span>
 									<span className='span1-1 footer-link'>
-										Forum
+										<a  href="https://twitter.com/Db3Network" target="_blank"  >Twitter</a>
+
 										<br />
-										Twitter
-										<br />
+
+										<a href="https://discord.com/invite/sgY2bbFCzr" target="_blank">
 										Discord
+										</a>
+										
 									</span>
 								</div>
 							</div>

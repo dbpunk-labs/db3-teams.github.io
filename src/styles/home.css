@@ -40,7 +40,7 @@
 }
 
 .home-container .build {
-	color: var(--radical-red);
+	color: var(--radical-black);
 	font-family: var(--font-family-inter);
 	font-size: 18px;
 	font-weight: 600;
@@ -80,6 +80,7 @@
 	font-family: var(--font-family-inter);
 	line-height: 43px;
 }
+
 
 .home-container .overlap-group10 {
 	height: 418px;
