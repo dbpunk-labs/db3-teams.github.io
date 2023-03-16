@@ -69,7 +69,7 @@ export default function Home() {
 						</div>
 						<div className='header-right'>
 							<div className='group-341'></div>
-							<a className='github' href="https://github.com/dbpunk-labs/db3" target="_blank">GitHub</a>
+							 <a className='github' rel="noreferrer"  href="https://github.com/dbpunk-labs/db3" target="_blank">GitHub</a>
 							<div className='github-star'>
 								<img
 									className='icon-star'
@@ -98,7 +98,7 @@ export default function Home() {
 										to read and write data without a centralized server.
 									</p>
 									<div className='header-btn'>
-										<a className='overlap-group2' href="https://github.com/dbpunk-labs/db3" target="_blank">
+										<a className='overlap-group2' rel="noreferrer" href="https://github.com/dbpunk-labs/db3" target="_blank">
 											Start Build
 										</a>
 										{/* <a className='db3-btn'>Claim Gitpoap</a> */}
@@ -566,14 +566,14 @@ export default function Home() {
 									alt='Union'
 								/>
 								<div className='group-17'>
-									<a href="https://twitter.com/Db3Network" target="_blank" >
+									<a rel="noreferrer" href="https://twitter.com/Db3Network" target="_blank" >
 									<img
 										className='icon-twitter'
 										src='/static/img/icon _twitter_.png'
 										alt='icon &#34;github&#34;'
 									/>
 									</a>
-									<a  href="https://github.com/dbpunk-labs/db3" target="_blank" >
+									<a rel="noreferrer"  href="https://github.com/dbpunk-labs/db3" target="_blank" >
 										<img
 											className='icon-github'
 											src='/static/img/icon _github_.png'
@@ -586,7 +586,7 @@ export default function Home() {
 										src='/static/img/icon _youtube_.png'
 										alt='icon-youtube'
 									/> */}
-									<a href="https://discord.com/invite/sgY2bbFCzr" target="_blank">
+									<a rel="noreferrer" href="https://discord.com/invite/sgY2bbFCzr" target="_blank">
 									<img
 										className='icon-discord'
 										src='/static/img/icon _discord_.png'
@@ -617,7 +617,7 @@ export default function Home() {
 										<br />
 									</span>
 									<span className='span1-1 footer-link' >
-										<a   href="https://github.com/dbpunk-labs/db3" target="_blank">
+										<a rel="noreferrer"  href="https://github.com/dbpunk-labs/db3" target="_blank">
 										GitHub
 										</a>
 										{/* Documents
@@ -631,11 +631,11 @@ export default function Home() {
 										<br />
 									</span>
 									<span className='span1-1 footer-link'>
-										<a  href="https://twitter.com/Db3Network" target="_blank"  >Twitter</a>
+										<a  rel="noreferrer" href="https://twitter.com/Db3Network" target="_blank"  >Twitter</a>
 
 										<br />
 
-										<a href="https://discord.com/invite/sgY2bbFCzr" target="_blank">
+										<a rel="noreferrer" href="https://discord.com/invite/sgY2bbFCzr" target="_blank">
 										Discord
 										</a>
 										
