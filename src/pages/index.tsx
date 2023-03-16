@@ -65,7 +65,7 @@ export default function Home() {
 								alt='logo'
 							/>
 							{/* <div className='build'>Build</div> */}
-							{/* <div className='community'>Community</div> */}
+							<div className='community'>Docs</div>
 						</div>
 						<div className='header-right'>
 							<div className='group-341'></div>
@@ -89,14 +89,16 @@ export default function Home() {
 											DB3 Network
 										</div>
 										<p className='desc'>
-											An open source decentralized database 
+											An open source decentralized database
 										</p>
 									</h1>
 									<div className='header-btn'>
 										<a className='overlap-group2' href="https://github.com/dbpunk-labs/db3" target="_blank">
 											Start Build
 										</a>
-										{/* <a className='db3-btn'>Claim Gitpoap</a> */}
+										<a className='db3-btn' href="https://www.gitpoap.io/gh/dbpunk-labs/db3" target="_blank">
+											Claim Gitpoap
+										</a>
 									</div>
 								</div>
 								<div className='db3-process' >
@@ -222,9 +224,10 @@ export default function Home() {
 							How to change dAPP structure with DB3
 						</p>
 						<p className='make-apps-more-decen inter-normal-black-16px'>
-							Decentralized Database as back-end service for you dApps.  
-							DB3 allow you to quickly build a fully decentralized application
-							instead of web2.5 by replacing your Firebase/Mysql.
+							DB3 provides a decentralized database service for dApps as a back-end solution. 
+							By replacing traditional back-end services like Firebase or MySQL, 
+							DB3 enables developers to build fully decentralized applications quickly, 
+							rather than relying on the web2.5 architecture.
 						</p>
 
 						{/* <a className='db3-btn'>View Document</a> */}
@@ -256,8 +259,8 @@ export default function Home() {
 								Decentralized real-time database
 							</div>
 							<p className='db3-is-a-decentraliz inter-normal-black-16px'>
-								DB3 is a decentralized database network that
-								anyone can use without permission, with lots of novel properties
+								DB3 is a decentralized database network with numerous innovative 
+								features that allow anyone to use it without requiring permission.	
 							</p>
 						</div>
 						<div className='view-container'>
@@ -288,9 +291,8 @@ export default function Home() {
 									Data Programmable
 								</div>
 								<p className='the-data-stored-on-t inter-normal-black-14px'>
-									Deploy complex data processing logic to the
-									chain in a functional manner which can make
-									the data processing transparent
+									Deploying data processing functions on DB3 can 
+									significantly enhance transparency.
 								</p>
 							</div>
 							<div className='view'>
@@ -299,9 +301,8 @@ export default function Home() {
 									Blazed Fast Read&amp;Wirte
 								</div>
 								<p className='the-data-stored-on-t inter-normal-black-14px'>
-									DB3 can provide high-performance data read
-									and write services without losing the
-									consensus security of the blockchain
+									Capable of delivering high-performance data read and write services
+									 while maintaining the secure consensus of the blockchain.
 								</p>
 							</div>
 						</div>
@@ -470,16 +471,13 @@ export default function Home() {
 								Multi-Chain Supportable
 							</div>
 							<p className='as-a-data-storage-ne inter-normal-black-16px'>
-								As a data storage network, db3 relies on
-								blockchain consensus to ensure the security of
-								data reading and writing without permission or
-								trust. But, db3 never intends to build from
-								scratch, but to stand on the shoulders of giants
-								and establish an organic link with the existing
-								public chain ecology. DB3 uses existing public
-								chains for token management and fee settlement,
-								DB3 can and plans to combine with many public
-								chains
+								DB3 is a data storage network that leverages blockchain 
+								consensus to guarantee secure and permissionless data 
+								read and write operations. Rather than starting from scratch, 
+								DB3 aims to integrate with existing public chain ecosystems
+								 and build upon their strengths. For token management and 
+								 fee settlement, DB3 utilizes established public chains 
+								 and plans to collaborate with several more in the future.
 							</p>
 							<div className='image-container'>
 								<img
@@ -520,7 +518,7 @@ export default function Home() {
 							What you can build with DB3
 						</p>
 						<p className='projects-developed-b inter-normal-black-16px'>
-							projects developed based on DB3, including
+							Projects developed based on DB3, including
 							information management tools, social, NFT, ZK-Prove,
 							etc
 						</p>
@@ -652,8 +650,7 @@ export default function Home() {
 			>
 				<div className='modal-title'>See how DB3 works</div>
 				<div className='sub-title'>
-					Find out what needs to be done to build a DAPP with DB3.Just
-					like use firebase before
+					Find out what needs to be done to build a dApp with DB3.
 				</div>
 				<img
 					className='close-play'
