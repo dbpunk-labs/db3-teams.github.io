@@ -41,6 +41,8 @@ export default function Home() {
 		setOpenVideo(true);
 	}
 
+
+
 	return (
 		<>
 			<Head>
@@ -62,12 +64,12 @@ export default function Home() {
 								src='/static/img/logo@2x.png'
 								alt='logo'
 							/>
-							<div className='build'>Build</div>
-							<div className='community'>Community</div>
+							{/* <div className='build'>Build</div> */}
+							{/* <div className='community'>Community</div> */}
 						</div>
 						<div className='header-right'>
 							<div className='group-341'></div>
-							<div className='github'>Github</div>
+							 <a className='github' rel="noreferrer"  href="https://github.com/dbpunk-labs/db3" target="_blank">GitHub</a>
 							<div className='github-star'>
 								<img
 									className='icon-star'
@@ -87,22 +89,22 @@ export default function Home() {
 											DB3 Network
 										</div>
 										<p className='desc'>
-											an open source
-											decentralized alternative to
-											firestore
+											An open source decentralized database 
 										</p>
 									</h1>
 									<p className='db3-network-is-a-dec'>
-										
+										Db3 Network is a decentralized database network. 
+										Developers can directly connect to the network 
+										to read and write data without a centralized server.
 									</p>
 									<div className='header-btn'>
-										<a className='overlap-group2'>
+										<a className='overlap-group2' rel="noreferrer" href="https://github.com/dbpunk-labs/db3" target="_blank">
 											Start Build
 										</a>
-										<a className='db3-btn'>Claim Gitpoap</a>
+										{/* <a className='db3-btn'>Claim Gitpoap</a> */}
 									</div>
 								</div>
-								<div className='db3-process' onClick={paly}>
+								<div className='db3-process' >
 									<img
 										className='process-img'
 										src='/static/img/process.png'
@@ -112,13 +114,13 @@ export default function Home() {
 										src='/static/img/process-m.png'
 									/>
 
-									<div className='play'>
+									{/* <div className='play' onClick={paly}>
 										<img
 											className='polygon-1'
 											src='/static/img/polygon-1@2x.png'
 											alt='Polygon 1'
 										/>
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>
@@ -128,8 +130,7 @@ export default function Home() {
 						<div className='vs-firebase'>
 							<div className='group-349'>
 								<p className='boost-your-decentral'>
-									Boost your decentralization process as
-									usaual
+									Boost your decentralization process as usaual
 								</p>
 								<p className='the-way-you-use-db3'>
 									The way you use DB3 is just same as Firebase
@@ -171,7 +172,7 @@ export default function Home() {
 									Decentralized Database
 								</div>
 								<div className='save-data-on-chain inter-normal-black-14px'>
-									Save data on chain
+									Save dynamic data on chain
 								</div>
 							</div>
 							<div className='group-61'>
@@ -226,14 +227,12 @@ export default function Home() {
 							How to change dAPP structure with DB3
 						</p>
 						<p className='make-apps-more-decen inter-normal-black-16px'>
-							Make apps more decentralised without sacrificing the
-							development experience, Blockchain and Database as
-							back-end service for you dApps. DB3 allow you to
-							quickly build a fully decentralized application
-							instead of web2.5
+							Decentralized Database as back-end service for you dApps.  
+							DB3 allow you to quickly build a fully decentralized application
+							instead of web2.5 by replacing your Firebase/Mysql.
 						</p>
 
-						<a className='db3-btn'>View Document</a>
+						{/* <a className='db3-btn'>View Document</a> */}
 					</div>
 					<div className='group-40'>
 						<div className='vs-before'>
@@ -241,9 +240,7 @@ export default function Home() {
 								<div className='before'>Before</div>
 								<p className='need-to-rely-on-a-ce'>
 									Need to rely on a centralized database and
-									maintain your own servers prevents the core
-									data portion of the application from being
-									decentralized
+									maintain your own servers
 								</p>
 							</div>
 							<img src='/static/img/before.png' width={636} />
@@ -252,9 +249,7 @@ export default function Home() {
 							<div className='overlap-title'>
 								<div className='after'>After</div>
 								<p className='instead-of-a-central'>
-									Instead of a centralized database,Use a
-									decentralized database, DB3, to make your
-									application more censor-resistant
+									Use DB3 to make your application decentralized and remove centralized server
 								</p>
 							</div>
 							<img src='/static/img/after.png' width={636} />
@@ -267,9 +262,7 @@ export default function Home() {
 							</div>
 							<p className='db3-is-a-decentraliz inter-normal-black-16px'>
 								DB3 is a decentralized database network that
-								anyone can use without permission, and it is
-								very easy to control their own data, real-time
-								data updates and query access
+								anyone can use without permission, with lots of novel properties
 							</p>
 						</div>
 						<div className='view-container'>
@@ -279,7 +272,7 @@ export default function Home() {
 									Mutable Document
 								</div>
 								<p className='the-data-stored-on-t inter-normal-black-14px'>
-									The data stored on the db3 network are
+									The data stored on the DB3 network are
 									dynamic structured data that can be updated
 									in real time
 								</p>
@@ -291,8 +284,7 @@ export default function Home() {
 								</div>
 								<p className='the-data-stored-on-t inter-normal-black-14px'>
 									The data stored in DB3 Network is completely
-									controlled by private key signature,No third
-									party has control over the data.
+									controlled by private key signature.
 								</p>
 							</div>
 							<div className='view'>
@@ -302,9 +294,8 @@ export default function Home() {
 								</div>
 								<p className='the-data-stored-on-t inter-normal-black-14px'>
 									Deploy complex data processing logic to the
-									chain in a functional manner, which can make
-									the data processing process open and
-									transparent
+									chain in a functional manner which can make
+									the data processing transparent
 								</p>
 							</div>
 							<div className='view'>
@@ -313,7 +304,7 @@ export default function Home() {
 									Blazed Fast Read&amp;Wirte
 								</div>
 								<p className='the-data-stored-on-t inter-normal-black-14px'>
-									db3 can provide high-performance data read
+									DB3 can provide high-performance data read
 									and write services without losing the
 									consensus security of the blockchain
 								</p>
@@ -357,47 +348,34 @@ export default function Home() {
 											<div className='db3js-1'>DB3js</div>
 
 											<p className='all-db3js-sd-ks-are-c inter-semi-bold-black-20px'>
-												All DB3js SDKs are carefully
-												designed to make developers
-												lives easier
+												DB3js make developers lives easier
 											</p>
 											<div className='db3js-desc'>
 												<p>
-													npm one-click installation
+													NPM one-click installation
 												</p>
 												<p>
 													Fully compatible with
-													firestore&#39;s interface,
-													seamlessly migrate
+													Firestore&#39;s interface
 												</p>
 												<p>
 													Interacts with db3 network
-													directly , and does not
-													require an intermediate
+													directly, no intermediate
 													server
 												</p>
 												<p>
 													Flexible definition of data
-													query index index
+													query index
 												</p>
 												<p>
 													CRUD the data in the front
 													end directly
 												</p>
-												<p>
-													Customize data schemas and
-													create data storage
-													protocols quickly
-												</p>
-												<p>
-													Fully compatible with
-													Firebase interactive
-													interface
-												</p>
 											</div>
-											<a className='db3-btn'>
+
+											{/* <a className='db3-btn' >
 												Start Building with DB3js
-											</a>
+											</a> */}
 										</div>
 									</div>
 									<div className='group-22'>
@@ -416,9 +394,7 @@ export default function Home() {
 											</p>
 											<div className='dms-group inter-normal-black-14px'>
 												<p>
-													Manage the forms you create
-													on the admin platform
-													visually
+													Manage the database you created
 												</p>
 												<p>
 													Check the access status of
@@ -433,9 +409,9 @@ export default function Home() {
 													management
 												</p>
 											</div>
-											<div className='db3-btn'>
+											{/* <div className='db3-btn'>
 												Try Database
-											</div>
+											</div> */}
 										</div>
 										<div className='overlap-group2-3'>
 											<img
@@ -464,19 +440,18 @@ export default function Home() {
 											Browser on Chain
 										</div>
 										<p className='track-the-read-and-w inter-semi-bold-black-20px'>
-											Track the read and write behavior of
-											each data in time
+											Track transaction details 
 										</p>
 										<div className='browser-group inter-normal-black-14px'>
 											<p>
 												Display the data of the whole
 												network
 											</p>
-											<p>Dashbopard</p>
-											<p>Record for block and tx</p>
+											<p>Dashboard</p>
+											<p>Record for block and transactions</p>
 											<p>Validator information</p>
 										</div>
-										<a className='db3-btn'>Try Browser</a>
+										{/* <a className='db3-btn'>Try Browser</a> */}
 									</div>
 									<div className='overlap-group3-2'>
 										<img
@@ -578,9 +553,9 @@ export default function Home() {
 								<div className='place'>More</div>
 							</div>
 						</div>
-						<div className='db3-btn'>
+						{/* <div className='db3-btn'>
 							Check more&nbsp;&nbsp;Best practice in Community
-						</div>
+						</div> */}
 					</div>
 					<div className='footer-group'>
 						<div className='footer'>
@@ -591,30 +566,37 @@ export default function Home() {
 									alt='Union'
 								/>
 								<div className='group-17'>
+									<a rel="noreferrer" href="https://twitter.com/Db3Network" target="_blank" >
 									<img
 										className='icon-twitter'
 										src='/static/img/icon _twitter_.png'
 										alt='icon &#34;github&#34;'
 									/>
-									<img
-										className='icon-github'
-										src='/static/img/icon _github_.png'
-										alt='icon &#34;github&#34;'
-									/>
-									<img
+									</a>
+									<a rel="noreferrer"  href="https://github.com/dbpunk-labs/db3" target="_blank" >
+										<img
+											className='icon-github'
+											src='/static/img/icon _github_.png'
+											alt='icon &#34;github&#34;'
+										/>
+									</a>
+									
+									{/* <img
 										className='icon-youtube'
 										src='/static/img/icon _youtube_.png'
 										alt='icon-youtube'
-									/>
+									/> */}
+									<a rel="noreferrer" href="https://discord.com/invite/sgY2bbFCzr" target="_blank">
 									<img
 										className='icon-discord'
 										src='/static/img/icon _discord_.png'
 										alt='icon &#34;discord&#34;'
 									/>
+									</a>
 								</div>
 							</div>
 							<div className='footer-right'>
-								<div className='products-decentraliz'>
+								{/* <div className='products-decentraliz'>
 									<span className='inter-bold-black-18px'>
 										Products
 										<br />
@@ -628,16 +610,19 @@ export default function Home() {
 										<br />
 										Explorer
 									</span>
-								</div>
+								</div> */}
 								<div className='developers-documents-github'>
-									<span className='inter-bold-black-18px '>
+									<span className='inter-bold-black-18px ' >
 										Developers
 										<br />
 									</span>
-									<span className='span1-1 footer-link'>
-										Documents
-										<br />
-										github
+									<span className='span1-1 footer-link' >
+										<a rel="noreferrer"  href="https://github.com/dbpunk-labs/db3" target="_blank">
+										GitHub
+										</a>
+										{/* Documents
+										<br /> */}
+										
 									</span>
 								</div>
 								<div className='community-forum-twitter-discord inter-bold-black-18px'>
@@ -646,11 +631,14 @@ export default function Home() {
 										<br />
 									</span>
 									<span className='span1-1 footer-link'>
-										Forum
+										<a  rel="noreferrer" href="https://twitter.com/Db3Network" target="_blank"  >Twitter</a>
+
 										<br />
-										Twitter
-										<br />
+
+										<a rel="noreferrer" href="https://discord.com/invite/sgY2bbFCzr" target="_blank">
 										Discord
+										</a>
+										
 									</span>
 								</div>
 							</div>
