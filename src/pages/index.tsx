@@ -64,7 +64,7 @@ export default function Home() {
 								src='/static/img/logo@2x.png'
 								alt='logo'
 							/>
-							{/* <div className='build'>Build</div> */}
+							 <div className='build'><a href="https://docs.db3.network">Docs</a></div> 
 							{/* <div className='community'>Community</div> */}
 						</div>
 						<div className='header-right'>
