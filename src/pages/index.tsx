@@ -64,7 +64,7 @@ export default function Home() {
 								src='/static/img/logo@2x.png'
 								alt='logo'
 							/>
-							 <div className='build'><a href="https://docs.db3.network">Docs</a></div> 
+							 <a className='build' href="https://docs.db3.network">Docs</a>
 							{/* <div className='community'>Community</div> */}
 						</div>
 						<div className='header-right'>
@@ -89,14 +89,9 @@ export default function Home() {
 											DB3 Network
 										</div>
 										<p className='desc'>
-											An open source decentralized database 
+A permissionless and decentralized data layer that enables data interoperability for Web3 applications
 										</p>
 									</h1>
-									<p className='db3-network-is-a-dec'>
-										Db3 Network is a decentralized database network. 
-										Developers can directly connect to the network 
-										to read and write data without a centralized server.
-									</p>
 									<div className='header-btn'>
 										<a className='overlap-group2' rel="noreferrer" href="https://github.com/dbpunk-labs/db3" target="_blank">
 											Start Build
