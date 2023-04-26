@@ -89,7 +89,7 @@ export default function Home() {
 											DB3 Network
 										</div>
 										<p className='desc'>
-A permissionless and decentralized data layer that enables data interoperability for Web3 applications
+A Decentralized and Scalable Arweave-Rollup Data Network
 										</p>
 									</h1>
 									<div className='header-btn'>
