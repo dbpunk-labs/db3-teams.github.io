@@ -91,8 +91,8 @@ export default function Home() {
 										</p>
 									</h1>
 									<div className='header-btn'>
-										<a className='overlap-group2' rel="noreferrer" href="https://console.cloud.db3.network" target="_blank">
-                                           Start to Build
+										<a className='overlap-group2' rel="noreferrer" href="https://console.cloud.db3.network/console/" target="_blank">
+                                           Try the Cloud
 										</a>
 								     	<a className='overlap-group2' rel="noreferrer" href="https://github.com/dbpunk-labs/db3" target="_blank">
                                            Github
