@@ -41,8 +41,6 @@ export default function Home() {
 		setOpenVideo(true);
 	}
 
-
-
 	return (
 		<>
 			<Head>
@@ -89,18 +87,21 @@ export default function Home() {
 											DB3 Network
 										</div>
 										<p className='desc'>
-A Decentralized and Scalable Data-Rollup Data Network
+                                           A lightweight, permanent JSON document database for Web3
 										</p>
 									</h1>
 									<div className='header-btn'>
-										<a className='overlap-group2' rel="noreferrer" href="https://github.com/dbpunk-labs/db3" target="_blank">
-											Start Build
+										<a className='overlap-group2' rel="noreferrer" href="https://console.cloud.db3.network" target="_blank">
+                                           Start to Use
 										</a>
-										{/* <a className='db3-btn'>Claim Gitpoap</a> */}
+								     	<a className='overlap-group2' rel="noreferrer" href="https://console.cloud.db3.network" target="_blank">
+                                           Github
+                                         </a>
 									</div>
+
 								</div>
 								<div className='db3-process' >
-									<img
+                                  	<img
 										className='process-img'
 										src='/static/img/process.png'
 									/>
@@ -109,114 +110,12 @@ A Decentralized and Scalable Data-Rollup Data Network
 										src='/static/img/process-m.png'
 									/>
 
-									{/* <div className='play' onClick={paly}>
-										<img
-											className='polygon-1'
-											src='/static/img/polygon-1@2x.png'
-											alt='Polygon 1'
-										/>
-									</div> */}
+									
 								</div>
 							</div>
 						</div>
 					</div>
 
-					<div className='overlap-group11'>
-						<div className='vs-firebase'>
-							<div className='group-349'>
-								<p className='boost-your-decentral'>
-									Boost your decentralization process as usaual
-								</p>
-								<p className='the-way-you-use-db3'>
-									The way you use DB3 is just same as Firebase
-								</p>
-							</div>
-							<div className='view-1'>
-								<div className='overlap-group-2'>
-									<img
-										className='comparison'
-										src='/static/img/comparison.png'
-									/>
-									<img
-										className='comparison-m'
-										src='/static/img/comparison-m.png'
-									/>
-								</div>
-							</div>
-							<div className='group-351'>
-								<img
-									className='db3-code'
-									src='/static/img/db3-code.png'
-								/>
-								<img
-									className='db3-code-m'
-									src='/static/img/db3-code-m.png'
-								/>
-							</div>
-						</div>
-						<div className='group-container'>
-							<div className='group-62'>
-								<div className='logodb'>
-									<img
-										className='black-s'
-										src='/static/img/black-s@2x.png'
-										alt='Black-S'
-									/>
-								</div>
-								<div className='decentralized-database decentralized inter-medium-black-16px'>
-									Decentralized Database
-								</div>
-								<div className='save-data-on-chain inter-normal-black-14px'>
-									Save dynamic data on chain
-								</div>
-							</div>
-							<div className='group-61'>
-								<div className='logojs'>
-									<img
-										className='vector'
-										src='/static/img/vector-3@2x.png'
-										alt='Vector'
-									/>
-								</div>
-								<div className='db3js inter-medium-black-16px'>
-									DB3js
-								</div>
-								<div className='quickly-integrate-database-access inter-normal-black-14px'>
-									Quickly integrate database access
-								</div>
-							</div>
-							<div className='group-60'>
-								<div className='logodms'>
-									<img
-										className='regular-s'
-										src='/static/img/regular-s-2@2x.png'
-										alt='Regular-S'
-									/>
-								</div>
-								<div className='dms inter-medium-black-16px'>
-									DMS
-								</div>
-								<div className='manage-data-access inter-normal-black-14px'>
-									Manage data access
-								</div>
-							</div>
-							<div className='group-59'>
-								<div className='logo-browser logo-3'>
-									<img
-										className='regular-s-1'
-										src='/static/img/regular-s-3@2x.png'
-										alt='Regular-S'
-									/>
-								</div>
-								<div className='browser-on-chain inter-medium-black-16px'>
-									Browser on Chain
-								</div>
-								<p className='track-data-read-and-write inter-normal-black-14px'>
-									Track data read and write
-								</p>
-							</div>
-						</div>
-					</div>
 					<div className='how'>
 						<p className='how-to-change-d-app-structure-with-db3 inter-semi-bold-black-26px'>
 							How to change dAPP structure with DB3
@@ -306,215 +205,7 @@ A Decentralized and Scalable Data-Rollup Data Network
 							</div>
 						</div>
 					</div>
-					<div className='products'>
-						<p className='what-we-are-building-for-you inter-semi-bold-black-26px'>
-							What we are building for you
-						</p>
-						<div className='group-345'>
-							<div className='group-343'>
-								<div className='overlap-group4-2'>
-									<img
-										className='vector-1'
-										src='/static/img/vector-1.png'
-										alt='Vector 1'
-									/>
-									<div className='group-23'>
-										<div className='logojs-1'>
-											<img
-												className='vector-2'
-												src='/static/img/vector-2@2x.png'
-												alt='Vector'
-											/>
-										</div>
-										<div className='overlap-group1-4'>
-											<div className='overlap-group-7'>
-												<img
-													className='rectangle-1'
-													src='/static/img/rectangle-1.png'
-													alt='Rectangle 1'
-												/>
-
-												<img
-													className='image-10'
-													src='/static/img/image-10.png'
-													alt='image 10'
-												/>
-											</div>
-											<div className='db3js-1'>DB3js</div>
-
-											<p className='all-db3js-sd-ks-are-c inter-semi-bold-black-20px'>
-												DB3js make developers lives easier
-											</p>
-											<div className='db3js-desc'>
-												<p>
-													NPM one-click installation
-												</p>
-												<p>
-													Fully compatible with
-													Firestore&#39;s interface
-												</p>
-												<p>
-													Interacts with db3 network
-													directly, no intermediate
-													server
-												</p>
-												<p>
-													Flexible definition of data
-													query index
-												</p>
-												<p>
-													CRUD the data in the front
-													end directly
-												</p>
-											</div>
-
-											{/* <a className='db3-btn' >
-												Start Building with DB3js
-											</a> */}
-										</div>
-									</div>
-									<div className='group-22'>
-										<div className='logodms-1'>
-											<img
-												className='regular-s-2'
-												src='/static/img/regular-s@2x.png'
-												alt='Regular-S'
-											/>
-										</div>
-										<div className='flex-col'>
-											<div className='dms-1'>DMS</div>
-											<p className='data-management-for-developers inter-semi-bold-black-20px'>
-												Data&nbsp;&nbsp;management for
-												developers
-											</p>
-											<div className='dms-group inter-normal-black-14px'>
-												<p>
-													Manage the database you created
-												</p>
-												<p>
-													Check the access status of
-													the statistics app
-												</p>
-												<p>
-													Manage your own defined
-													on-chain functions
-												</p>
-												<p>
-													User address authorization
-													management
-												</p>
-											</div>
-											{/* <div className='db3-btn'>
-												Try Database
-											</div> */}
-										</div>
-										<div className='overlap-group2-3'>
-											<img
-												className='rectangle-8'
-												src='/static/img/rectangle-8.png'
-												alt='Rectangle 8'
-											/>
-											<img
-												className='image-11'
-												src='/static/img/image-11.png'
-												alt='image 11'
-											/>
-										</div>
-									</div>
-								</div>
-								<div className='group-21'>
-									<div className='logo-browser-1'>
-										<img
-											className='regular-s-3'
-											src='/static/img/regular-s-1@2x.png'
-											alt='Regular-S'
-										/>
-									</div>
-									<div className='flex-col-1 flex-col-4'>
-										<div className='browser-on-chain-1'>
-											Browser on Chain
-										</div>
-										<p className='track-the-read-and-w inter-semi-bold-black-20px'>
-											Track transaction details 
-										</p>
-										<div className='browser-group inter-normal-black-14px'>
-											<p>
-												Display the data of the whole
-												network
-											</p>
-											<p>Dashboard</p>
-											<p>Record for block and transactions</p>
-											<p>Validator information</p>
-										</div>
-										{/* <a className='db3-btn'>Try Browser</a> */}
-									</div>
-									<div className='overlap-group3-2'>
-										<img
-											className='image-7'
-											src='/static/img/image-7.png'
-											alt='image 7'
-										/>
-										<img
-											className='image-12'
-											src='/static/img/image-12.png'
-											alt='image 12'
-										/>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className='multi-chain-supportable'>
-						<div className='overlap-group7-1'>
-							<div className='multi-chain-supportable-1'>
-								Multi-Chain Supportable
-							</div>
-							<p className='as-a-data-storage-ne inter-normal-black-16px'>
-								As a data storage network, db3 relies on
-								blockchain consensus to ensure the security of
-								data reading and writing without permission or
-								trust. But, db3 never intends to build from
-								scratch, but to stand on the shoulders of giants
-								and establish an organic link with the existing
-								public chain ecology. DB3 uses existing public
-								chains for token management and fee settlement,
-								DB3 can and plans to combine with many public
-								chains
-							</p>
-							<div className='image-container'>
-								<img
-									className='file-ethereum-logo-2014-1-1'
-									src='/static/img/eth.png'
-									alt='FileEthereum logo 2014 1'
-								/>
-								<img
-									className='bnb-1'
-									src='/static/img/bin.png'
-									alt='BNB 1'
-								/>
-								<img
-									className='mask-group'
-									src='/static/img/mask-group@2x.png'
-									alt='Mask group'
-								/>
-								<img
-									className='image-28'
-									src='/static/img/pol.png'
-									alt='image 28'
-								/>
-								<img
-									className='image-30'
-									src='/static/img/arb.png'
-									alt='image 30'
-								/>
-								<img
-									className='image-31'
-									src='/static/img/scroll.png'
-									alt='image 31'
-								/>
-							</div>
-						</div>
-					</div>
+					
 					<div className='demo'>
 						<p className='what-you-can-build-with-db3 inter-semi-bold-black-26px'>
 							What you can build with DB3
