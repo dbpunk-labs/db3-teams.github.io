@@ -62,8 +62,7 @@ export default function Home() {
 								src='/static/img/logo@2x.png'
 								alt='logo'
 							/>
-							 <a className='build' href="https://docs.db3.network">Docs</a>
-							{/* <div className='community'>Community</div> */}
+	  					 <a className='build' href="https://docs.db3.network">Docs</a>
 						</div>
 						<div className='header-right'>
 							<div className='group-341'></div>
@@ -91,12 +90,12 @@ export default function Home() {
 										</p>
 									</h1>
 									<div className='header-btn'>
-										<a className='overlap-group2' rel="noreferrer" href="https://console.cloud.db3.network/console/" target="_blank">
-                                           Try the Cloud
-										</a>
-								     	<a className='overlap-group2' rel="noreferrer" href="https://github.com/dbpunk-labs/db3" target="_blank">
-                                           Github
+								     	<a className='overlap-group2' rel="noreferrer" href="https://github.com/dbpunk-labs/db3#set-up-self-hosted-node" target="_blank">
+                                          Try with docker
                                          </a>
+                                        <a className='overlap-group2' rel="noreferrer" href="https://console.cloud.db3.network/console/" target="_blank">
+                                          Try the Cloud
+										</a>
 									</div>
 
 								</div>
