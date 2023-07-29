@@ -93,8 +93,8 @@ export default function Home() {
 								     	<a className='overlap-group2' rel="noreferrer" href="https://github.com/dbpunk-labs/db3#set-up-self-hosted-node" target="_blank">
                                           Try with docker
                                          </a>
-                                        <a className='overlap-group2' rel="noreferrer" href="https://console.cloud.db3.network/console/" target="_blank">
-                                          Try the Cloud
+                                        <a className='overlap-group2' rel="noreferrer" href="https://testnet.db3.network/" target="_blank">
+                                          Try the Testnet
 										</a>
 									</div>
 
